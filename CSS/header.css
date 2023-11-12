@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    height: 55px;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100;
+    font-family: Montserrat, Arial;
+
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex: 4;
+}
+
+.website-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #a5a5a5;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    width: 400px;
+}
+
+a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    display: flex;
+}
+
+a:active {
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
