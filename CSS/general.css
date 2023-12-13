@@ -84,7 +84,7 @@ body {
 }
 
 .what-we-do-section {
-  background: url('./images/wheel-cleaning.jpeg');
+  background: url('../images/wheel-cleaning.jpeg');
   background-size: cover;
   display: flex; 
   justify-content: center;
