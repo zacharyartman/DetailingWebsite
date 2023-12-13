@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 100;
     font-family: Montserrat, Arial;
-
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
@@ -34,26 +34,24 @@
 
 a {
     font-size: 12px;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 20px;
     display: flex;
 }
 
 a:hover {
-    color: rgb(202, 202, 202);
+    color: rgb(126, 126, 126);
     transition: 0.25s color;
 }
-
 a:active {
     border-width: 1px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
-    transition: 0.25s border-color;
 }
 
 .current-page {
     border-width: 1px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
 }

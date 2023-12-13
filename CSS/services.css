@@ -1,0 +1,85 @@
+p {
+  font-family: Oxygen, Arial;
+}
+
+.headline {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.subheadline {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0 0 0 0;
+}
+
+.detail-pricing-section {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-pricing-section a {
+  font-family: Montserrat, Arial;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.full-detail-header-section .headline {
+  margin-bottom: 0px;
+}
+
+.full-detail-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.body-text {
+  font-family: Montserrat, Arial;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.items-table {
+  display: flex;
+}
+
+.exterior-items,
+.interior-items {
+  padding-top: 15px;
+  width: 50%;
+  text-align: left;
+  font-family: Montserrat, Arial;
+  margin: 0px 20px;
+  line-height: 24px;
+}
+
+
+.exterior-detail-only p,
+.interior-detail-only p,
+.maintenance-detail-section p{
+  padding-left: 19px;
+  padding-bottom: 10px;
+}
+
+.maintenance-detail-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.maintenance-detail-upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
