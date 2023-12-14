@@ -60,15 +60,18 @@ p {
   width: 50%;
   text-align: left;
   font-family: Montserrat, Arial;
-  margin: 0px 20px;
   line-height: 24px;
+}
+.exterior-items {
+  margin-left: 45px;
+  padding-right: 35px;
 }
 
 
 .exterior-detail-only p,
 .interior-detail-only p,
 .maintenance-detail-section p{
-  padding-left: 19px;
+  padding-left: 45px;
   padding-bottom: 10px;
 }
 
