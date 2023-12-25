@@ -57,12 +57,18 @@ body {
   margin-bottom: 14px;
   margin-right: 10px;
   padding: 13px 25px;
+  transition: all 0.05s ease-in-out;
+}
+
+.work-section-right a:hover {
+  background-color: lightgrey;
 }
 
 .headline {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .subheadline {
@@ -91,7 +97,7 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 400px;
+  height: auto;
 }
 
 .what-we-do-title-section {
@@ -136,7 +142,7 @@ body {
   text-transform: none;
   color: white;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .what-we-do-info-section .subheadline {
@@ -190,4 +196,12 @@ body {
 }
 .bio-section p {
   color: white;
+}
+
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.8;
 }

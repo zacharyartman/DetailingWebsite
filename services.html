@@ -4,16 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/services.css">
-  <link rel="stylesheet" href="CSS/header_alt.css">
+  <link rel="stylesheet" href="./CSS/services.css">
+  <link rel="stylesheet" href="./CSS/header.css">
+  <link rel="stylesheet" href="./CSS/header_alt.css">
+  <link rel="stylesheet" href="./CSS/mediaqueries.css">
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oxygen:wght@300;400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Oxygen:wght@300;400;500;700&display=swap"
     rel="stylesheet">
   <title>Services</title>
 </head>
 
 <body>
-  <header class="header">
+  <header id="header">
     <div class="left-section">
       <a class="website-title" href="./">SEA ISLES AUTO DETAILING</a>
     </div>
@@ -21,7 +23,7 @@
       <a href="./"> HOME </a>
       <a href="./services" class="current-page"> SERVICES </a>
       <div class="dropdown">
-        <a href="./gallery"> GALLERY </a>
+        <a href="./gallery" class="gallery"> GALLERY </a>
         <div class="dropdown-content">
           <a href="./interiors">Interior Gallery</a>
           <a href="./exteriors">Exterior Gallery</a>  
@@ -29,7 +31,22 @@
       </div>
       <a href="./contact"> CONTACT </a>
     </div>
+    <nav id="right-section-hamburger">
+      <span id="alt-header"></span>
+      <div id="hamburger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="./">HOME</a></li>
+        <li><a href=./services>SERVICES</a></li>
+        <li><a href=./gallery>GALLERY</a></li>
+        <li><a href=./contact>CONTACT</a></li>
+      </div>
+    </div>
   </header>
+
 
   <section class="detail-pricing-section">
     <section class="full-detail-section">
@@ -90,6 +107,7 @@
       </div>
     </section>
   </section>
+  <script src="script.js"></script>
 </body>
 
 </html>

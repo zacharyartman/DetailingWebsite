@@ -67,7 +67,6 @@ p {
   padding-right: 35px;
 }
 
-
 .exterior-detail-only p,
 .interior-detail-only p,
 .maintenance-detail-section p{
@@ -86,3 +85,32 @@ p {
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .headline {
+    font-size: 25px;
+  }
+  .subheadline {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .items-table {
+    flex-direction: column;
+  }
+
+  .exterior-items,
+  .interior-items,
+  .exterior-detail-only,
+  .interior-detail-only,
+  .maintenance-detail-section {
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .exterior-detail-only p,
+  .interior-detail-only p,
+  .maintenance-detail-section p {
+    padding: 0;
+  }
+
+}

@@ -1,14 +1,14 @@
-.header {
+#header {
     display: flex;
     height: 75px;
     flex-direction: row;
     position: fixed;
     z-index: 100;
     font-family: Montserrat, Arial;
-
     top: 0;
     left: 0;
     right: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .left-section {
@@ -63,13 +63,13 @@ a:active {
     position: relative;
     display: inline-block;
 }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -80,9 +80,82 @@ a:active {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;
-    }
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block; 
+.dropdown:hover .dropdown-content {
+    display: block;
     opacity: 1;
+}
+
+/* Hamburger Menu */
+#right-section-hamburger {
+    display: none;
+}
+
+#hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+#header.open {
+    background-color: white;
+}
+
+#hamburger-icon.open span{
+    background-color: black;
+}
+#hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+#hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
 }
