@@ -43,6 +43,7 @@ a {
 a:hover {
     color: rgb(202, 202, 202);
     transition: 0.25s color;
+    cursor: pointer;
 }
 
 a:active {
