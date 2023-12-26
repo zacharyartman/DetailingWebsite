@@ -11,10 +11,10 @@
     transition: all 0.5s ease-in-out;
 }
 
-  
-  header {
+
+header {
     animation: 1s ease-out 0s 1 slideDown;
-  }  
+}
 
 .left-section {
     display: flex;
@@ -154,9 +154,10 @@ a:active {
     background-color: white;
 }
 
-#hamburger-icon.open span{
+#hamburger-icon.open span {
     background-color: black;
 }
+
 #hamburger-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 5px);
 }
@@ -184,7 +185,7 @@ a:active {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-}   
+}
 
 #gallery-dropdown img {
     margin-left: 75%;
@@ -200,14 +201,10 @@ a:active {
     overflow: hidden;
 }
 
-.dropdown-items a{
+.dropdown-items a {
     font-size: 16px;
 }
 
 .dropdown-items.open {
     max-height: 300px;
-}
-
-.gallery-dropdown img {
-    transform: rotateX(180deg);
 }
