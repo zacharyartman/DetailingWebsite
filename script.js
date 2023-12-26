@@ -1,10 +1,17 @@
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector("#hamburger-icon");
+    var hamburgerSpans = document.querySelectorAll("#hamburger-icon span");
     const header = document.querySelector("#header");
     menu.classList.toggle("open");
     icon.classList.toggle("open");
     header.classList.toggle("open");
+
+    var isMenuOpen = icon.classList.contains('open');
+    hamburgerSpans.forEach(function(span) {
+        span.style.backgroundColor = isMenuOpen ? "black" : "white";
+    });
+
 }
 
 document.getElementById('hamburger-icon').onclick = function() {
@@ -27,7 +34,7 @@ function scrollFunction() {
     } else if (hasScrolled) {
         header.classList.add("header-scrolled");
         hamburgerSpans.forEach(function(span) {
-            span.style.backgroundColor = "white";
+            span.style.backgroundColor = "black";
         });
 
     } else {
