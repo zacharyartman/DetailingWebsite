@@ -22,7 +22,7 @@ body {
     
 }
 .main-section-interiors,
-.main-section-exteriors {
+.main-section-exteriors{
     background-size: cover;
     height: 14rem;
     display: grid;
