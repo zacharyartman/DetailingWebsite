@@ -51,3 +51,7 @@ document.getElementById('gallery-dropdown').onclick = function() {
     const menu = document.querySelector('.dropdown-items');
     menu.classList.toggle('open');
 }
+
+window.onload = function() {
+    document.body.className += " loaded";
+}
