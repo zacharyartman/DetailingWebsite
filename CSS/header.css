@@ -66,12 +66,15 @@ a:active {
 }
 
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
 }
 
 .dropdown-content a {
@@ -86,8 +89,8 @@ a:active {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
     opacity: 1;
+    max-height: 300px;
 }
 
 /* Hamburger Menu */
