@@ -9,7 +9,30 @@
 
 .body p {
     line-height: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
     font-weight: 300;
+}
+
+.body {
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .body p {
+        padding-left: 5rem;
+        padding-right: 5rem;    
+    }
+
+    .body {
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .body p {
+        padding-left: 2rem;
+        padding-right: 2rem;    
+    }
 }
