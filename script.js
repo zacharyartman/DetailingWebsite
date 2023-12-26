@@ -39,3 +39,8 @@ function scrollFunction() {
         }
     }
 }
+
+document.getElementById('gallery-dropdown').onclick = function() {
+    const menu = document.querySelector('.dropdown-items');
+    menu.classList.toggle('open');
+}

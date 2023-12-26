@@ -22,3 +22,7 @@ a:active {
 #hamburger-icon.open span{
     background-color: black;
 }
+
+li {
+    position: relative;
+}

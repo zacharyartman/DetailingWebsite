@@ -30,7 +30,7 @@
         <a href="./gallery" class="gallery"> GALLERY </a>
         <div class="dropdown-content">
           <a href="./interiors">Interior Gallery</a>
-          <a href="./exteriors">Exterior Gallery</a>  
+          <a href="./exteriors">Exterior Gallery</a>
         </div>
       </div>
       <a href="./contact"> CONTACT </a>
@@ -44,10 +44,20 @@
       <div class="menu-links">
         <li><a href="./">HOME</a></li>
         <li><a href=./services>SERVICES</a></li>
-        <li><a href=./gallery>GALLERY</a></li>
+        <li>
+          <div id="gallery-dropdown">
+            <span></span>
+            <a>GALLERY</a>
+            <img src="./images/expand.svg">
+          </div>
+        </li>
+        <div class="dropdown-items">
+          <li><a href="./interiors">Interior</a></li>
+          <li><a href=./exteriors>Exterior</a></li>
+        </div>
         <li><a href=./contact>CONTACT</a></li>
       </div>
-    </div>
+      </div>
   </header>
 
   <section class="main-section">
@@ -115,18 +125,19 @@
   </section>
   <script src="script.js"></script>
   <footer>
-    <hr style = "margin: 0;">
+    <hr style="margin: 0;">
     <nav>
-        <div class="nav-links-container" style="background-color: rgb(20, 20, 20); padding-top: 0.5rem;">
-            <ul class="nav-links">
-                <li><a href="./" style="color: white;">HOME</a></li>
-                <li><a href="./services" style="color: white;">SERVICES</a></li>
-                <li><a href="./interiors" style="color: white;">INTERIOR GALLERY</a></li>
-                <li><a href="./exteriors" style="color: white;">EXTERIOR GALLERY</a></li>
-                <li><a href="./contact" style="color: white;">CONTACT</a></li>
-            </ul>
-        </div>
+      <div class="nav-links-container" style="background-color: rgb(20, 20, 20); padding-top: 0.5rem;">
+        <ul class="nav-links">
+          <li><a href="./" style="color: white;">HOME</a></li>
+          <li><a href="./services" style="color: white;">SERVICES</a></li>
+          <li><a href="./interiors" style="color: white;">INTERIOR GALLERY</a></li>
+          <li><a href="./exteriors" style="color: white;">EXTERIOR GALLERY</a></li>
+          <li><a href="./contact" style="color: white;">CONTACT</a></li>
+        </ul>
+      </div>
     </nav>
-</footer>
+  </footer>
 </body>
+
 </html>

@@ -171,3 +171,35 @@ a:active {
     color: black;
     border-color: black;
 }
+
+#gallery-dropdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}   
+
+#gallery-dropdown img {
+    margin-left: 75%;
+}
+
+#gallery-dropdown:hover {
+    cursor: pointer;
+}
+
+.dropdown-items {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.dropdown-items a{
+    font-size: 16px;
+}
+
+.dropdown-items.open {
+    max-height: 300px;
+}
+
+.gallery-dropdown img {
+    transform: rotateX(180deg);
+}
