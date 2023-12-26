@@ -19,3 +19,15 @@
 iframe {
     margin-bottom: 2rem;
 }
+
+.bio {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio p {
+    font-family: 'Montserrat', Arial;
+    line-height: 1.75rem;
+}
