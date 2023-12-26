@@ -96,3 +96,14 @@ body {
     }
 
 }
+
+@media screen and (max-width: 700px) {
+    .main-section-interiors,
+    .main-section-exteriors {
+        height: 9rem;
+    }
+
+    .main-section-exteriors {
+        background-position: center;
+    }
+}
