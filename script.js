@@ -14,18 +14,28 @@ document.getElementById('hamburger-icon').onclick = function() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  var spans = document.querySelectorAll("#hamburger-icon span");
-  var isHeaderAlt = document.querySelectorAll("#alt-header").length > 0;
+    var header = document.getElementById("header");
+    var hamburgerSpans = document.querySelectorAll("#hamburger-icon span");
+    var isTransparentHeader = document.querySelectorAll("#transparent-header").length > 0;
+    var hasScrolled = document.body.scrollTop > 75 || document.documentElement.scrollTop > 75;
 
-  if ((document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) && !isHeaderAlt) {
-    document.getElementById("header").style.backgroundColor = "white";
-    spans.forEach(function(span) {
-        span.style.backgroundColor = "black";
-    });
-  } else if (!isHeaderAlt) {
-    document.getElementById("header").style.backgroundColor = "transparent";
-    spans.forEach(function(span) {
-        span.style.backgroundColor = "white";
-    });
-}
+    if (isTransparentHeader && hasScrolled) {
+        header.classList.add("header-scrolled");
+        hamburgerSpans.forEach(function(span) {
+            span.style.backgroundColor = "black";
+        });
+    } else if (hasScrolled) {
+        header.classList.add("header-scrolled");
+        hamburgerSpans.forEach(function(span) {
+            span.style.backgroundColor = "white";
+        });
+
+    } else {
+        header.classList.remove("header-scrolled");
+        if (isTransparentHeader) {
+            hamburgerSpans.forEach(function(span) {
+                span.style.backgroundColor = "white";
+            });
+        }
+    }
 }

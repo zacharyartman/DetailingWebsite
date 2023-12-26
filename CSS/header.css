@@ -159,3 +159,14 @@ a:active {
 #hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
 }
+
+.header-scrolled {
+    background-color: white;
+    color: black;
+}
+
+.header-scrolled a,
+.header-scrolled .dropdown-content a {
+    color: black;
+    border-color: black;
+}
