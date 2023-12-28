@@ -1,109 +1,111 @@
 body {
-    font-family: Montserrat, Arial;
-    margin: 0;
-  }  
+  font-family: Montserrat, Arial;
+  margin: 0;
+}
 
 .main-section-interiors {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
     url('../images/range-rover.jpg');
-    background-position: center -100px;
+  background-position: center -100px;
 }
 
 .main-section-exteriors {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
     url('../images/exterior-photos/taycan.webp');
-    background-position: center -250px;
-    
+  background-position: center -250px;
+
 }
+
 .main-section-interiors,
-.main-section-exteriors{
-    background-size: cover;
-    height: 14rem;
-    display: grid;
-    justify-content: column;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
+.main-section-exteriors {
+  background-size: cover;
+  height: 14rem;
+  display: grid;
+  justify-content: column;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
 }
 
 .headline {
-    color: white;
-    font-weight: 400;
+  color: white;
+  font-weight: 400;
 }
 
 .center {
-    padding-top: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1.5rem;
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.5rem;
 }
 
 .center img {
-    width: 100%;
-    margin-bottom: 1.5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .photo-section {
-    display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
 }
 
 @media screen and (max-width: 1400px) {
-    .main-section-exteriors {
-        background-position: center -200px;
-    }
+  .main-section-exteriors {
+    background-position: center -200px;
+  }
 }
-@media screen and (max-width: 1200px) {
-    .main-section-interiors,
-    .main-section-exteriors {
-        height: 10rem;
-    }
-    .headline {
-        margin-top: 2rem;
-        font-size: 35px;
-    }
 
-    .main-section-exteriors {
-        background-position: center -200px;
-    }
+@media screen and (max-width: 1200px) {
+
+  .main-section-interiors,
+  .main-section-exteriors {
+    height: 10rem;
+  }
+
+  .headline {
+    margin-top: 2rem;
+    font-size: 35px;
+  }
+
+  .main-section-exteriors {
+    background-position: center -200px;
+  }
 
 }
 
 @media screen and (max-width: 1050px) {
-    .main-section-exteriors {
-        background-position: center -125px;
-    }
+  .main-section-exteriors {
+    background-position: center -125px;
+  }
 }
 
 
 @media screen and (max-width: 900px) {
 
-    .photo-section {
-        grid-template-columns: 1fr 16fr 1fr;
-    }
-    .center {
-        grid-template-columns: 1fr;
-    }
+  .photo-section {
+    grid-template-columns: 1fr 16fr 1fr;
+  }
 
-    .main-section-exteriors {
-        background-position: center -50px;
-    }
+  .center {
+    grid-template-columns: 1fr;
+  }
+
+  .main-section-exteriors {
+    background-position: center -50px;
+  }
 
 }
 
 @media screen and (max-width: 700px) {
-    .main-section-interiors,
-    .main-section-exteriors {
-        height: 9rem;
-    }
 
-    .main-section-exteriors {
-        background-position: center;
-    }
+  .main-section-interiors,
+  .main-section-exteriors {
+    height: 9rem;
+  }
+
+  .main-section-exteriors {
+    background-position: center;
+  }
 }

@@ -62,6 +62,7 @@ p {
   font-family: Montserrat, Arial;
   line-height: 24px;
 }
+
 .exterior-items {
   margin-left: 45px;
   padding-right: 35px;
@@ -69,7 +70,7 @@ p {
 
 .exterior-detail-only p,
 .interior-detail-only p,
-.maintenance-detail-section p{
+.maintenance-detail-section p {
   padding-left: 45px;
   padding-bottom: 10px;
 }
@@ -89,6 +90,7 @@ p {
   .headline {
     font-size: 25px;
   }
+
   .subheadline {
     font-size: 20px;
     font-weight: 200;

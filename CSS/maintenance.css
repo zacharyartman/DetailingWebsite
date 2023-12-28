@@ -1,38 +1,38 @@
 .title {
-    margin-top: 75px;
-    text-align: center;
+  margin-top: 75px;
+  text-align: center;
 }
 
 .title h1 {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 .body p {
-    line-height: 2rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    font-weight: 300;
+  line-height: 2rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  font-weight: 300;
 }
 
 .body {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 1200px) {
-    .body p {
-        padding-left: 5rem;
-        padding-right: 5rem;    
-    }
+  .body p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 
-    .body {
-        margin-bottom: 3rem;
-    }
+  .body {
+    margin-bottom: 3rem;
+  }
 
 }
 
 @media screen and (max-width: 1000px) {
-    .body p {
-        padding-left: 2rem;
-        padding-right: 2rem;    
-    }
+  .body p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

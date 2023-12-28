@@ -1,76 +1,80 @@
 @media screen and (max-width: 1200px) {
-    .right-section {
-      display: none;
-    }
-    #right-section-hamburger {
-      display: flex;
-      justify-content: center;
-      margin-top: -4px;
-    }
+  .right-section {
+    display: none;
+  }
 
-    .work-section {
-      flex-direction: column;
-    }
+  #right-section-hamburger {
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+  }
 
-    .work-section p {
-      padding: 2rem 0rem;
-    }
-  
-    .work-section-left {
-      width: 100%;
-      text-align: center;
-    }
+  .work-section {
+    flex-direction: column;
+  }
 
-    .work-section-left p{
-      font-size: 25px;
-    }
+  .work-section p {
+    padding: 2rem 0rem;
+  }
 
-    .what-we-do-section {
-      background-position: center;
-    }
-    
-    .what-we-do-section p {
-      margin-bottom: 20px;
-    }
-    .what-we-do-info-section {
-      flex-direction: column;
-      height: auto;
-    }
+  .work-section-left {
+    width: 100%;
+    text-align: center;
+  }
 
-    .what-we-do-info-section a {
-      margin-bottom: 30px;
-    }
-    .what-we-do-info-section .subheadline {
-      padding: 0;
-    }
-    .bio-section-info {
-      height: auto;
-    }
+  .work-section-left p {
+    font-size: 25px;
+  }
 
-    .bio-section-info p {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      margin-left: 1rem;
-      margin-right: 3rem;
-      text-align: initial;
-    }
+  .what-we-do-section {
+    background-position: center;
+  }
 
-    .bio-section {
-      flex-direction: column;
-    }
+  .what-we-do-section p {
+    margin-bottom: 20px;
+  }
 
-    .bio-section-photo {
-      aspect-ratio: auto;
-      margin-top: 0px;
-    }
+  .what-we-do-info-section {
+    flex-direction: column;
+    height: auto;
+  }
 
-    .work-section-right {
-      padding-bottom: 1rem;
-    }
+  .what-we-do-info-section a {
+    margin-bottom: 30px;
+  }
 
-    .what-we-do-info-section a {
-      font-weight: 200;
-      font-size: 11px;
-    }
-    
-}  
+  .what-we-do-info-section .subheadline {
+    padding: 0;
+  }
+
+  .bio-section-info {
+    height: auto;
+  }
+
+  .bio-section-info p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    text-align: initial;
+  }
+
+  .bio-section {
+    flex-direction: column;
+  }
+
+  .bio-section-photo {
+    aspect-ratio: auto;
+    margin-top: 0px;
+  }
+
+  .work-section-right {
+    padding-bottom: 1rem;
+  }
+
+  .what-we-do-info-section a {
+    font-weight: 200;
+    font-size: 11px;
+  }
+
+}

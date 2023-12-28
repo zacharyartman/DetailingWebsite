@@ -1,40 +1,41 @@
 @keyframes slideDown {
-    0% {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
   }
 
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 #header {
-    background-color: white;
-    animation: 1s ease-out 0s 1 slideDown;
+  background-color: white;
+  animation: 1s ease-out 0s 1 slideDown;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 a:active {
-    border-color: black;
+  border-color: black;
 }
 
 .current-page {
-    border-color: black;
+  border-color: black;
 }
 
 
 #hamburger-icon span {
-    background-color: black;
+  background-color: black;
 }
 
-#hamburger-icon.open span{
-    background-color: black;
+#hamburger-icon.open span {
+  background-color: black;
 }
 
 li {
-    position: relative;
+  position: relative;
 }
