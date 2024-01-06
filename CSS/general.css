@@ -23,13 +23,14 @@ body {
 .top-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),
-    url('../images/tesla-model-3-interior.avif') red;
+    url('../images/Porsche-911.avif') black;
   background-size: cover;
   padding-top: 190px;
   display: grid;
   justify-content: column;
   width: 100%;
   justify-items: center;
+  background-position: center -350px;
 }
 
 .work-section {
