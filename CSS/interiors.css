@@ -7,14 +7,14 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),
     url('../images/range-rover.jpg');
-  background-position: center -100px;
+  background-position: 50% 10%;
 }
 
 .main-section-exteriors {
   background: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),
     url('../images/exterior-photos/taycan.webp');
-  background-position: center -250px;
+  background-position: 50% 35%;
 
 }
 
@@ -51,12 +51,6 @@ body {
   grid-template-columns: 1fr 7fr 1fr;
 }
 
-@media screen and (max-width: 1400px) {
-  .main-section-exteriors {
-    background-position: center -200px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
 
   .main-section-interiors,
@@ -67,17 +61,6 @@ body {
   .headline {
     margin-top: 2rem;
     font-size: 35px;
-  }
-
-  .main-section-exteriors {
-    background-position: center -200px;
-  }
-
-}
-
-@media screen and (max-width: 1050px) {
-  .main-section-exteriors {
-    background-position: center -125px;
   }
 }
 
@@ -91,11 +74,6 @@ body {
   .center {
     grid-template-columns: 1fr;
   }
-
-  .main-section-exteriors {
-    background-position: center -50px;
-  }
-
 }
 
 @media screen and (max-width: 700px) {
@@ -103,9 +81,5 @@ body {
   .main-section-interiors,
   .main-section-exteriors {
     height: 9rem;
-  }
-
-  .main-section-exteriors {
-    background-position: center;
   }
 }
