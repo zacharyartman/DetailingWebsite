@@ -226,6 +226,8 @@ a:hover {
 .clickable-link {
   all: unset;
   font-weight: 600;
+  font-size: 14px;
+  
 }
 
 .clickable-link:hover {
